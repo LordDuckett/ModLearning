@@ -1,6 +1,12 @@
 {
   "item.weaponarmormod.bismuth": "Bismuth",
   "item.weaponarmormod.raw_bismuth": "Raw Bismuth",
+  "item.weaponarmormod.mod_workbench_tool": "Mod Workbench Tool",
 
-  "block.weaponarmormod.bismuth_block": "Block of Bismuth"
+  "block.weaponarmormod.bismuth_block": "Block of Bismuth",
+  "block.weaponarmormod.bismuth_ore": "Bismuth Ore",
+
+  "creativetab.weaponarmormod.bismuth_items": "Bismuth Items",
+  "creativetab.weaponarmormod.bismuth_blocks": "Bismuth Blocks"
+
 }
