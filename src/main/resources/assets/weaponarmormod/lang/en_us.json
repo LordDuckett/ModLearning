@@ -1,4 +1,6 @@
 {
   "item.weaponarmormod.bismuth": "Bismuth",
-  "item.weaponarmormod.raw_bismuth": "Raw Bismuth"
+  "item.weaponarmormod.raw_bismuth": "Raw Bismuth",
+
+  "block.weaponarmormod.bismuth_block": "Block of Bismuth"
 }
