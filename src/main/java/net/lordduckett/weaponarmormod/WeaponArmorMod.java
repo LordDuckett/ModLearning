@@ -55,19 +55,6 @@ public class WeaponArmorMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.AQUARIUM);
-            event.accept(ModItems.RAW_AQUARIUM);
-        }
-
-        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-            event.accept(ModItems.MOD_WORKBENCH_TOOL);
-        }
-
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
-            event.accept(ModBlocks.AQUARIUM_BLOCK);
-            event.accept(ModBlocks.AQUARIUM_ORE);
-        }
 
     }
 

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "weaponarmormod:item/aquarium"
+    "layer0": "weaponarmormod:item/aquarium_ingot"
   }
 }

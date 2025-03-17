@@ -9,7 +9,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(WeaponArmorMod.MOD_ID);
 
-    public static final DeferredItem<Item> AQUARIUM = ITEMS.register("aquarium",
+    public static final DeferredItem<Item> AQUARIUM_INGOT = ITEMS.register("aquarium_ingot",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_AQUARIUM = ITEMS.register("raw_aquarium",
             () -> new Item(new Item.Properties()));

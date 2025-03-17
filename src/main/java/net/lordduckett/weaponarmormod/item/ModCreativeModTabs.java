@@ -17,10 +17,10 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, WeaponArmorMod.MOD_ID);
 
     public static final Supplier<CreativeModeTab> AQUARIUM_ITEMS_TAB = CREATIVE_MODE_TAB.register("aquarium_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AQUARIUM.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AQUARIUM_INGOT.get()))
                     .title(Component.translatable("creativetab.weaponarmormod.aquarium_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.AQUARIUM);
+                        output.accept(ModItems.AQUARIUM_INGOT);
                         output.accept(ModItems.RAW_AQUARIUM);
                     }).build());
 
