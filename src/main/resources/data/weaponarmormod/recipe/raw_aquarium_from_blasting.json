@@ -1,10 +1,10 @@
 {
   "type": "minecraft:blasting",
-  "catagory": "misc",
+  "category": "misc",
   "cookingtime": "100",
   "experience": "0.25",
   "group": "aquarium_ingot",
-  "ingresient": {
+  "ingredient": {
     "item": "weaponarmormod:aquarium_ore"
   },
   "result": {

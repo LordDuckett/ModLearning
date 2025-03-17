@@ -31,6 +31,7 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.AQUARIUM_BLOCK);
                         output.accept(ModBlocks.AQUARIUM_ORE);
+                        output.accept(ModBlocks.AQUARIUM_DEEPSLATE_ORE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> WAM_TOOLS_TAB = CREATIVE_MODE_TAB.register("wam_tools_tab",

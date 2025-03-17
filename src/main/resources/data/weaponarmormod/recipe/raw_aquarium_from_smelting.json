@@ -1,10 +1,10 @@
 {
   "type": "minecraft:smelting",
-  "catagory": "misc",
+  "category": "misc",
   "cookingtime": "200",
   "experience": "0.25",
   "group": "aquarium_ingot",
-  "ingresient": {
+  "ingredient": {
     "item": "weaponarmormod:aquarium_ore"
   },
   "result": {
