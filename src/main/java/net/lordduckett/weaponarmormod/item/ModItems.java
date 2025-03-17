@@ -1,13 +1,13 @@
-package net.lordduckett.tutorialmod.item;
+package net.lordduckett.weaponarmormod.item;
 
-import net.lordduckett.tutorialmod.TutorialMod;
+import net.lordduckett.weaponarmormod.WeaponArmorMod;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModItems {
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(TutorialMod.MOD_ID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(WeaponArmorMod.MOD_ID);
 
     public static final DeferredItem<Item> BISMUTH = ITEMS.register("bismuth",
             () -> new Item(new Item.Properties()));

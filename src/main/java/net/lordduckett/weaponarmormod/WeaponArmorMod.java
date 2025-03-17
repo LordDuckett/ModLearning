@@ -1,6 +1,6 @@
-package net.lordduckett.tutorialmod;
+package net.lordduckett.weaponarmormod;
 
-import net.lordduckett.tutorialmod.item.ModItems;
+import net.lordduckett.weaponarmormod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
 
@@ -20,14 +20,14 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(TutorialMod.MOD_ID)
-public class TutorialMod {
-    public static final String MOD_ID = "tutorialmod";
+@Mod(WeaponArmorMod.MOD_ID)
+public class WeaponArmorMod {
+    public static final String MOD_ID = "weaponarmormod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public TutorialMod(IEventBus modEventBus, ModContainer modContainer) {
+    public WeaponArmorMod(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
