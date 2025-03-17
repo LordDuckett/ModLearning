@@ -19,11 +19,11 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(WeaponArmorMod.MOD_ID);
 
-    public static final DeferredBlock<Block> BISMUTH_BLOCK = registerBlock ("bismuth_block",
+    public static final DeferredBlock<Block> AQUARIUM_BLOCK = registerBlock ("aquarium_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.AMETHYST)));
 
-    public static final DeferredBlock<Block> BISMUTH_ORE = registerBlock ("bismuth_ore",
+    public static final DeferredBlock<Block> AQUARIUM_ORE = registerBlock ("aquarium_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 

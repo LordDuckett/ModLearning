@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures":{
-    "all": "weaponarmormod:block/bismuth_ore"
+    "all": "weaponarmormod:block/aquarium_ore"
   }
 }

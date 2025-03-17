@@ -1,12 +1,13 @@
 {
-  "item.weaponarmormod.bismuth": "Bismuth",
-  "item.weaponarmormod.raw_bismuth": "Raw Bismuth",
+  "item.weaponarmormod.aquarium": "Aquarium",
+  "item.weaponarmormod.raw_aquarium": "Raw Aquarium",
   "item.weaponarmormod.mod_workbench_tool": "Mod Workbench Tool",
 
-  "block.weaponarmormod.bismuth_block": "Block of Bismuth",
-  "block.weaponarmormod.bismuth_ore": "Bismuth Ore",
+  "block.weaponarmormod.aquarium_block": "Block of Aquarium",
+  "block.weaponarmormod.aquarium_ore": "Aquarium Ore",
 
-  "creativetab.weaponarmormod.bismuth_items": "Bismuth Items",
-  "creativetab.weaponarmormod.bismuth_blocks": "Bismuth Blocks"
+  "creativetab.weaponarmormod.aquarium_items": "Aquarium Items",
+  "creativetab.weaponarmormod.aquarium_blocks": "Aquarium Blocks",
+  "creativetab.weaponarmormod.wam_tools": "WAM Tools"
 
 }

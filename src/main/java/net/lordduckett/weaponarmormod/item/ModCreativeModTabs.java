@@ -16,21 +16,29 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, WeaponArmorMod.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> BISMUTH_ITEMS_TAB = CREATIVE_MODE_TAB.register("bismuth_items_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.BISMUTH.get()))
-                    .title(Component.translatable("creativetab.weaponarmormod.bismuth_items"))
+    public static final Supplier<CreativeModeTab> AQUARIUM_ITEMS_TAB = CREATIVE_MODE_TAB.register("aquarium_items_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AQUARIUM.get()))
+                    .title(Component.translatable("creativetab.weaponarmormod.aquarium_items"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.BISMUTH);
-                        output.accept(ModItems.RAW_BISMUTH);
+                        output.accept(ModItems.AQUARIUM);
+                        output.accept(ModItems.RAW_AQUARIUM);
                     }).build());
 
-    public static final Supplier<CreativeModeTab> BISMUTH_BLOCK_TAB = CREATIVE_MODE_TAB.register("bismuth_blocks_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.BISMUTH_BLOCK.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(WeaponArmorMod.MOD_ID, "bismuth_items_tab"))
-                    .title(Component.translatable("creativetab.weaponarmormod.bismuth_blocks"))
+    public static final Supplier<CreativeModeTab> AQUARIUM_BLOCK_TAB = CREATIVE_MODE_TAB.register("aquarium_blocks_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.AQUARIUM_BLOCK.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(WeaponArmorMod.MOD_ID, "aquarium_items_tab"))
+                    .title(Component.translatable("creativetab.weaponarmormod.aquarium_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.BISMUTH_BLOCK);
-                        output.accept(ModBlocks.BISMUTH_ORE);
+                        output.accept(ModBlocks.AQUARIUM_BLOCK);
+                        output.accept(ModBlocks.AQUARIUM_ORE);
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> WAM_TOOLS_TAB = CREATIVE_MODE_TAB.register("wam_tools_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MOD_WORKBENCH_TOOL.get()))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(WeaponArmorMod.MOD_ID, "aquarium_blocks_tab"))
+                    .title(Component.translatable("creativetab.weaponarmormod.wam_tools"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.MOD_WORKBENCH_TOOL);
                     }).build());
 
 

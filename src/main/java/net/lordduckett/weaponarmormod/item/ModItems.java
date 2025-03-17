@@ -9,9 +9,9 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(WeaponArmorMod.MOD_ID);
 
-    public static final DeferredItem<Item> BISMUTH = ITEMS.register("bismuth",
+    public static final DeferredItem<Item> AQUARIUM = ITEMS.register("aquarium",
             () -> new Item(new Item.Properties()));
-    public static final DeferredItem<Item> RAW_BISMUTH = ITEMS.register("raw_bismuth",
+    public static final DeferredItem<Item> RAW_AQUARIUM = ITEMS.register("raw_aquarium",
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MOD_WORKBENCH_TOOL = ITEMS.register("mod_workbench_tool",
             () -> new Item(new Item.Properties()));

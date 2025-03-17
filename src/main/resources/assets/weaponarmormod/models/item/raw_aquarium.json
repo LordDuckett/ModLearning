@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "weaponarmormod:item/bismuth"
+    "layer0": "weaponarmormod:item/raw_aquarium"
   }
 }
