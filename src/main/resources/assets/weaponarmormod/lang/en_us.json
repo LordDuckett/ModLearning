@@ -2,13 +2,14 @@
   "item.weaponarmormod.aquarium_ingot": "Aquarium Ingot",
   "item.weaponarmormod.raw_aquarium": "Raw Aquarium",
   "item.weaponarmormod.mod_workbench_tool": "Mod Workbench Tool",
+  "item.weaponarmormod.chisel": "Chisel",
 
   "block.weaponarmormod.aquarium_block": "Block of Aquarium",
   "block.weaponarmormod.aquarium_ore": "Aquarium Ore",
   "block.weaponarmormod.aquarium_deepslate_ore": "Aquarium Deepslate Ore",
+  "block.weaponarmormod.magic_block": "Magic Block",
 
-  "creativetab.weaponarmormod.aquarium_items": "Aquarium Items",
-  "creativetab.weaponarmormod.aquarium_blocks": "Aquarium Blocks",
-  "creativetab.weaponarmormod.wam_tools": "WAM Tools"
+  "creativetab.weaponarmormod.wam": "Weapon Armor Mod",
+  "creativetab.weaponarmormod.test": "tEST"
 
 }

@@ -16,30 +16,25 @@ public class ModCreativeModTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, WeaponArmorMod.MOD_ID);
 
-    public static final Supplier<CreativeModeTab> AQUARIUM_ITEMS_TAB = CREATIVE_MODE_TAB.register("aquarium_items_tab",
+    public static final Supplier<CreativeModeTab> AQUARIUM_ITEMS_TAB = CREATIVE_MODE_TAB.register("wam_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.AQUARIUM_INGOT.get()))
-                    .title(Component.translatable("creativetab.weaponarmormod.aquarium_items"))
+                    .title(Component.translatable("creativetab.weaponarmormod.wam"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.AQUARIUM_INGOT);
                         output.accept(ModItems.RAW_AQUARIUM);
-                    }).build());
-
-    public static final Supplier<CreativeModeTab> AQUARIUM_BLOCK_TAB = CREATIVE_MODE_TAB.register("aquarium_blocks_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.AQUARIUM_BLOCK.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(WeaponArmorMod.MOD_ID, "aquarium_items_tab"))
-                    .title(Component.translatable("creativetab.weaponarmormod.aquarium_blocks"))
-                    .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.AQUARIUM_BLOCK);
                         output.accept(ModBlocks.AQUARIUM_ORE);
                         output.accept(ModBlocks.AQUARIUM_DEEPSLATE_ORE);
                     }).build());
 
-    public static final Supplier<CreativeModeTab> WAM_TOOLS_TAB = CREATIVE_MODE_TAB.register("wam_tools_tab",
+    public static final Supplier<CreativeModeTab> WAM_TOOLS_TAB = CREATIVE_MODE_TAB.register("test_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MOD_WORKBENCH_TOOL.get()))
-                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(WeaponArmorMod.MOD_ID, "aquarium_blocks_tab"))
-                    .title(Component.translatable("creativetab.weaponarmormod.wam_tools"))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(WeaponArmorMod.MOD_ID, "wam_tab"))
+                    .title(Component.translatable("creativetab.weaponarmormod.test"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.MOD_WORKBENCH_TOOL);
+                        output.accept(ModItems.CHISEL);
+                        output.accept(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
 
