@@ -35,6 +35,7 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.MOD_WORKBENCH_TOOL);
                         output.accept(ModItems.CHISEL);
                         output.accept(ModBlocks.MAGIC_BLOCK);
+                        output.accept(ModItems.RADISH);
                     }).build());
 
 
