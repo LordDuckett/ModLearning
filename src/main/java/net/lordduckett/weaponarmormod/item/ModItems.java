@@ -2,6 +2,7 @@ package net.lordduckett.weaponarmormod.item;
 
 import net.lordduckett.weaponarmormod.WeaponArmorMod;
 import net.lordduckett.weaponarmormod.item.custom.ChiselItem;
+import net.lordduckett.weaponarmormod.item.custom.FuelItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -22,6 +23,11 @@ public class ModItems {
 
     public static final DeferredItem<Item> RADISH = ITEMS.register("radish",
             () -> new Item(new Item.Properties().food(ModFoodProperties.RADISH)));
+
+    public static final DeferredItem<Item> FROSTFIRE_ICE = ITEMS.register("frostfire_ice",
+            () -> new FuelItem(new Item.Properties(), 800));
+    public static final DeferredItem<Item> STARLIGHT_AHSES = ITEMS.register("starlight_ashes",
+            () -> new Item(new Item.Properties()));
 
 
 

@@ -36,6 +36,8 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.CHISEL);
                         output.accept(ModBlocks.MAGIC_BLOCK);
                         output.accept(ModItems.RADISH);
+                        output.accept(ModItems.FROSTFIRE_ICE);
+                        output.accept(ModItems.STARLIGHT_AHSES);
                     }).build());
 
 
