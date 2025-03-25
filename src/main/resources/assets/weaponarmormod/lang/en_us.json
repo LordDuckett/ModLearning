@@ -15,6 +15,15 @@
   "block.weaponarmormod.magic_block": "Magic Block",
 
   "creativetab.weaponarmormod.wam": "Weapon Armor Mod",
-  "creativetab.weaponarmormod.test": "tEST"
+  "creativetab.weaponarmormod.test": "tEST",
+
+
+
+  "tooltip.weaponarmormod.magic_block.tooltip": "This Block is very §9Magical§r",
+
+  "tooltip.weaponarmormod.chisel.shift_down": "This Item can chisel Blocks into Bricks",
+  "tooltip.weaponarmormod.chisel": "Press §eShift§r for more Information",
+
+  "tooltip.weaponarmormod.radish.tooltip": "Tastes really great!"
 
 }
