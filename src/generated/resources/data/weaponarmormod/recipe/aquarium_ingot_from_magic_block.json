@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "weaponarmormod:magic_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "weaponarmormod:aquarium_ingot"
+  }
+}

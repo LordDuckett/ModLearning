@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_aquarium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "weaponarmormod:raw_aquarium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "weaponarmormod:aquarium_ingot_from_blasting_raw_aquarium"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_aquarium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "weaponarmormod:aquarium_ingot_from_blasting_raw_aquarium"
+    ]
+  }
+}
